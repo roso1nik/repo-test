@@ -1,0 +1,18 @@
+:root {
+    --white: #FFFFFF;
+    --black: #121723;
+    --text_gray: #A1A6B4;
+
+    --background-color: #F1F1F1;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(../fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+}

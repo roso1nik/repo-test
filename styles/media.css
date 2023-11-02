@@ -1,0 +1,46 @@
+@media screen and (max-width: 807px) and (min-width: 592px) {
+    .card-item {
+        width: 260px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    header > div > div, footer > div > div > div {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    footer > div > div > div > div {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card-item {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .card-item img {
+        width: 50%;
+    }
+    .card-item-title {
+        font-size: 21px;
+    }
+    .card-item-note {
+        font-size: 18px;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    footer img {
+        width: 80%;
+    }
+    footer nav {
+        justify-content: center;
+    }
+}
